@@ -8,7 +8,6 @@ const PORT = 7816;
 
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(cookieParser());
-app.use(express.static(path.join(__dirname, 'managmin')));
 app.use(express.static(path.join(__dirname, 'web')));
 app.use(express.static(path.join(__dirname, 'lymed')));
 
